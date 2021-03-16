@@ -1,0 +1,19 @@
+{
+    "name": "luc4g3r/sample-package",
+    "description": "Sample description",
+    "authors": [
+        {
+            "name": "Luca Gerhardt",
+            "email": "luc4.g3r@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Package": "src/"
+        }
+    }
+}
